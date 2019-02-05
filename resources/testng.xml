@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Library">
+
+    <test name="Tests">
+        <classes>
+            <class name="net.cheltsov.library.LibraryBeforeTest"/>
+
+            <class name="net.cheltsov.library.dao.impl.file.EditionFileReaderTest"/>
+            <class name="net.cheltsov.library.dao.impl.file.EditionStringBuilderTest"/>
+            <class name="net.cheltsov.library.action.impl.CalculateAmountOfPagesTest"/>
+            <class name="net.cheltsov.library.action.impl.FindEditionTest"/>
+            <class name="net.cheltsov.library.action.impl.SortEditionTest"/>
+            <class name="net.cheltsov.library.dao.impl.jaxb.EditionUnmarhallerTest"/>
+            <class name="net.cheltsov.library.dao.impl.jaxb.EditionMarshallerTest"/>
+            <class name="net.cheltsov.library.dao.impl.sax.EditionSAXBuilderTest"/>
+            <class name="net.cheltsov.library.dao.impl.stax.EditionStAXBuilderTest"/>
+            <class name="net.cheltsov.library.dao.impl.dom.EditionDOMBuilderTest"/>
+        </classes>
+    </test>
+
+</suite>
